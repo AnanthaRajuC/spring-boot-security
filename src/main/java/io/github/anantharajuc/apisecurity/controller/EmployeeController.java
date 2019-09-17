@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "/employees")
 public class EmployeeController 
 {
-	@GetMapping(path="/")
+	@GetMapping(path="/data")
     public String getEmployees() 
     {
         return "Data from REST Endpoint";
